@@ -1,0 +1,13 @@
+[package]
+name = "deepgram-streaming-rust"
+version = "0.1.0"
+authors = ["Nikola Whallon <nikola@deepgram.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = "^0.10.6"
+futures = "0.1"
+tokio = "0.1"
+websocket = "0.24.0"
